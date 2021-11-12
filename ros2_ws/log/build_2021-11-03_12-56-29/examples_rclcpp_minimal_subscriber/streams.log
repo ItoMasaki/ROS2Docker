@@ -1,0 +1,88 @@
+[0.066s] Invoking command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/ROS2Docker/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[1.469s] -- The C compiler identification is GNU 9.3.0
+[1.469s] -- The CXX compiler identification is GNU 9.3.0
+[1.469s] -- Check for working C compiler: /usr/bin/cc
+[1.469s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.469s] -- Detecting C compiler ABI info
+[1.469s] -- Detecting C compiler ABI info - done
+[1.469s] -- Detecting C compile features
+[1.469s] -- Detecting C compile features - done
+[1.469s] -- Check for working CXX compiler: /usr/bin/c++
+[1.470s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.470s] -- Detecting CXX compiler ABI info
+[1.470s] -- Detecting CXX compiler ABI info - done
+[1.470s] -- Detecting CXX compile features
+[1.470s] -- Detecting CXX compile features - done
+[1.470s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.470s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.470s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.470s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.470s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.470s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.471s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.471s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.471s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.471s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.471s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.471s] -- Looking for pthread.h
+[1.471s] -- Looking for pthread.h - found
+[1.471s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.471s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.471s] -- Looking for pthread_create in pthreads
+[1.471s] -- Looking for pthread_create in pthreads - not found
+[1.472s] -- Looking for pthread_create in pthread
+[1.472s] -- Looking for pthread_create in pthread - found
+[1.472s] -- Found Threads: TRUE  
+[1.586s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.679s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.681s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.681s] -- Configured cppcheck include dirs: 
+[1.681s] -- Configured cppcheck exclude dirs and/or files: 
+[1.683s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.683s] -- Configured cpplint exclude dirs and/or files: 
+[1.684s] -- Added test 'lint_cmake' to check CMake code style
+[1.686s] -- Added test 'uncrustify' to check C / C++ code style
+[1.686s] -- Configured uncrustify additional arguments: 
+[1.687s] -- Added test 'xmllint' to check XML markup files
+[1.692s] -- Configuring done
+[1.712s] -- Generating done
+[1.714s] -- Build files have been written to: /root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[1.727s] Invoked command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/ROS2Docker/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[1.728s] Invoking command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+[1.838s] [35m[1mScanning dependencies of target subscriber_not_composable[0m
+[1.838s] [35m[1mScanning dependencies of target subscriber_member_function[0m
+[1.839s] [35m[1mScanning dependencies of target subscriber_lambda[0m
+[1.868s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[1.870s] [ 33%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[1.873s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[7.922s] [ 66%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[7.950s] [ 83%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[8.091s] [100%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[8.105s] [100%] Built target subscriber_member_function
+[8.133s] [100%] Built target subscriber_not_composable
+[8.261s] [100%] Built target subscriber_lambda
+[8.272s] Invoked command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+[8.293s] Invoking command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[8.300s] -- Install configuration: ""
+[8.300s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[8.301s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda" to ""
+[8.301s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[8.302s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function" to ""
+[8.302s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[8.303s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable" to ""
+[8.304s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[8.304s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[8.304s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[8.304s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[8.304s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[8.304s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[8.304s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[8.304s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[8.304s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[8.305s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[8.305s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[8.305s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[8.305s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[8.305s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[8.305s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[8.309s] Invoked command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_subscriber

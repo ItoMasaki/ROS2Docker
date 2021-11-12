@@ -1,0 +1,49 @@
+[1.455s] Invoking command in '/root/ROS2Docker/ros2_ws/src/examples/rclpy/services/minimal_client': PYTHONPATH=/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/build install --prefix /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client --record /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed
+[1.697s] running egg_info
+[1.697s] creating ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info
+[1.698s] writing ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/PKG-INFO
+[1.698s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[1.698s] writing entry points to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/entry_points.txt
+[1.698s] writing requirements to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/requires.txt
+[1.698s] writing top-level names to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/top_level.txt
+[1.698s] writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[1.713s] reading manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[1.714s] writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[1.714s] running build
+[1.714s] running build_py
+[1.715s] creating /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/build
+[1.715s] creating /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/build/lib
+[1.716s] creating /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[1.716s] copying examples_rclpy_minimal_client/client.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[1.716s] copying examples_rclpy_minimal_client/client_async_member_function.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[1.717s] copying examples_rclpy_minimal_client/client_async_callback.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[1.717s] copying examples_rclpy_minimal_client/__init__.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[1.717s] copying examples_rclpy_minimal_client/client_async.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[1.717s] running install
+[1.718s] running install_lib
+[1.718s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[1.719s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[1.719s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_member_function.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[1.719s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_callback.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[1.719s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/__init__.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[1.719s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[1.719s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/client.py to client.cpython-38.pyc
+[1.720s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/client_async_member_function.py to client_async_member_function.cpython-38.pyc
+[1.721s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/client_async_callback.py to client_async_callback.cpython-38.pyc
+[1.721s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/__init__.py to __init__.cpython-38.pyc
+[1.722s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/client_async.py to client_async.cpython-38.pyc
+[1.722s] running install_data
+[1.725s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index
+[1.725s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index
+[1.730s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[1.731s] copying resource/examples_rclpy_minimal_client -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[1.731s] copying package.xml -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client
+[1.731s] running install_egg_info
+[1.736s] Copying ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client-0.9.4-py3.8.egg-info
+[1.737s] running install_scripts
+[1.752s] Installing client script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[1.752s] Installing client_async script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[1.752s] Installing client_async_callback script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[1.753s] Installing client_async_member_function script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[1.753s] writing list of installed files to '/root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/install.log'
+[1.812s] Invoked command in '/root/ROS2Docker/ros2_ws/src/examples/rclpy/services/minimal_client' returned '0': PYTHONPATH=/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/build install --prefix /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client --record /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed

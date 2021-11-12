@@ -1,0 +1,88 @@
+[0.069s] Invoking command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/ROS2Docker/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher
+[1.471s] -- The C compiler identification is GNU 9.3.0
+[1.471s] -- The CXX compiler identification is GNU 9.3.0
+[1.471s] -- Check for working C compiler: /usr/bin/cc
+[1.471s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.471s] -- Detecting C compiler ABI info
+[1.471s] -- Detecting C compiler ABI info - done
+[1.471s] -- Detecting C compile features
+[1.471s] -- Detecting C compile features - done
+[1.471s] -- Check for working CXX compiler: /usr/bin/c++
+[1.472s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.472s] -- Detecting CXX compiler ABI info
+[1.472s] -- Detecting CXX compiler ABI info - done
+[1.472s] -- Detecting CXX compile features
+[1.472s] -- Detecting CXX compile features - done
+[1.472s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.472s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.472s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.472s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.472s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.473s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.473s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.473s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.473s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.473s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.473s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.473s] -- Looking for pthread.h
+[1.473s] -- Looking for pthread.h - found
+[1.473s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.473s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.473s] -- Looking for pthread_create in pthreads
+[1.474s] -- Looking for pthread_create in pthreads - not found
+[1.474s] -- Looking for pthread_create in pthread
+[1.474s] -- Looking for pthread_create in pthread - found
+[1.474s] -- Found Threads: TRUE  
+[1.489s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.535s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.536s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.536s] -- Configured cppcheck include dirs: 
+[1.537s] -- Configured cppcheck exclude dirs and/or files: 
+[1.538s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.538s] -- Configured cpplint exclude dirs and/or files: 
+[1.539s] -- Added test 'lint_cmake' to check CMake code style
+[1.540s] -- Added test 'uncrustify' to check C / C++ code style
+[1.540s] -- Configured uncrustify additional arguments: 
+[1.541s] -- Added test 'xmllint' to check XML markup files
+[1.545s] -- Configuring done
+[1.563s] -- Generating done
+[1.565s] -- Build files have been written to: /root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_publisher
+[1.574s] Invoked command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/ROS2Docker/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher
+[1.575s] Invoking command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j16 -l16
+[1.841s] [35m[1mScanning dependencies of target publisher_not_composable[0m
+[1.845s] [35m[1mScanning dependencies of target publisher_member_function[0m
+[1.845s] [35m[1mScanning dependencies of target publisher_lambda[0m
+[1.845s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[1.845s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[1.846s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[6.047s] [ 66%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[6.274s] [ 66%] Built target publisher_not_composable
+[6.311s] [ 83%] [32m[1mLinking CXX executable publisher_member_function[0m
+[6.489s] [ 83%] Built target publisher_member_function
+[6.554s] [100%] [32m[1mLinking CXX executable publisher_lambda[0m
+[6.691s] [100%] Built target publisher_lambda
+[6.701s] Invoked command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j16 -l16
+[6.725s] Invoking command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_publisher
+[6.733s] -- Install configuration: ""
+[6.733s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[6.734s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda" to ""
+[6.734s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[6.735s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function" to ""
+[6.735s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[6.736s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable" to ""
+[6.736s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[6.736s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[6.736s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[6.736s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[6.736s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[6.737s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[6.737s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[6.737s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[6.737s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[6.737s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[6.737s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[6.737s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[6.738s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[6.738s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[6.738s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[6.741s] Invoked command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_publisher

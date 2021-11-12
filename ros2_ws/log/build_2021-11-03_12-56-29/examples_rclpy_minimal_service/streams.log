@@ -1,0 +1,41 @@
+[1.448s] Invoking command in '/root/ROS2Docker/ros2_ws/src/examples/rclpy/services/minimal_service': PYTHONPATH=/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_service/build install --prefix /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service --record /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed
+[1.750s] running egg_info
+[1.751s] creating ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info
+[1.751s] writing ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[1.751s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[1.751s] writing entry points to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[1.751s] writing requirements to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[1.751s] writing top-level names to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[1.752s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[1.761s] reading manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[1.761s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[1.762s] running build
+[1.762s] running build_py
+[1.762s] creating /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_service/build
+[1.762s] creating /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_service/build/lib
+[1.762s] creating /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[1.762s] copying examples_rclpy_minimal_service/service_member_function.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[1.762s] copying examples_rclpy_minimal_service/__init__.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[1.762s] copying examples_rclpy_minimal_service/service.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[1.762s] running install
+[1.762s] running install_lib
+[1.762s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service
+[1.763s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service_member_function.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service
+[1.763s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/__init__.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service
+[1.763s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service
+[1.763s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service/service_member_function.py to service_member_function.cpython-38.pyc
+[1.763s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service/__init__.py to __init__.cpython-38.pyc
+[1.763s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service/service.py to service.cpython-38.pyc
+[1.763s] running install_data
+[1.764s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index
+[1.764s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[1.764s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[1.764s] copying resource/examples_rclpy_minimal_service -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[1.764s] copying package.xml -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[1.764s] running install_egg_info
+[1.766s] Copying ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service-0.9.4-py3.8.egg-info
+[1.767s] running install_scripts
+[1.790s] Installing service script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[1.790s] Installing service_member_function script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[1.790s] writing list of installed files to '/root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_service/install.log'
+[1.888s] Invoked command in '/root/ROS2Docker/ros2_ws/src/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_service/build install --prefix /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service --record /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed

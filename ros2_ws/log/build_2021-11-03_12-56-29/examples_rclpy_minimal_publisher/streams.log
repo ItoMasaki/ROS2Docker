@@ -1,0 +1,45 @@
+[1.452s] Invoking command in '/root/ROS2Docker/ros2_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_publisher/build install --prefix /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher --record /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[1.727s] running egg_info
+[1.728s] creating ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info
+[1.728s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[1.728s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[1.728s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[1.728s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[1.728s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[1.728s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.728s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.728s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.728s] running build
+[1.729s] running build_py
+[1.729s] creating /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[1.729s] creating /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib
+[1.729s] creating /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[1.729s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[1.729s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[1.729s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[1.729s] copying examples_rclpy_minimal_publisher/__init__.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[1.729s] running install
+[1.729s] running install_lib
+[1.729s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[1.730s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[1.730s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[1.730s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[1.730s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[1.730s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-38.pyc
+[1.733s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[1.733s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-38.pyc
+[1.733s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-38.pyc
+[1.733s] running install_data
+[1.733s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index
+[1.733s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index
+[1.733s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[1.733s] copying resource/examples_rclpy_minimal_publisher -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[1.734s] copying package.xml -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[1.734s] running install_egg_info
+[1.734s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher-0.9.4-py3.8.egg-info
+[1.734s] running install_scripts
+[1.757s] Installing publisher_local_function script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.758s] Installing publisher_member_function script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.758s] Installing publisher_old_school script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.758s] writing list of installed files to '/root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_publisher/install.log'
+[1.836s] Invoked command in '/root/ROS2Docker/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_publisher/build install --prefix /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher --record /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

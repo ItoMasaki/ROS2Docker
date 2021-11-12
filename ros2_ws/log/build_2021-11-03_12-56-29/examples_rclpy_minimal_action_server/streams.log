@@ -1,0 +1,53 @@
+[1.459s] Invoking command in '/root/ROS2Docker/ros2_ws/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/build install --prefix /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server --record /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed
+[1.670s] running egg_info
+[1.671s] creating ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info
+[1.671s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[1.672s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[1.672s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[1.672s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[1.672s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[1.674s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[1.725s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[1.727s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[1.727s] running build
+[1.727s] running build_py
+[1.727s] creating /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/build
+[1.728s] creating /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib
+[1.728s] creating /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[1.728s] copying examples_rclpy_minimal_action_server/server_single_goal.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[1.729s] copying examples_rclpy_minimal_action_server/server.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[1.729s] copying examples_rclpy_minimal_action_server/server_not_composable.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[1.729s] copying examples_rclpy_minimal_action_server/server_defer.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[1.731s] copying examples_rclpy_minimal_action_server/__init__.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[1.734s] copying examples_rclpy_minimal_action_server/server_queue_goals.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[1.735s] running install
+[1.735s] running install_lib
+[1.739s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[1.739s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_single_goal.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[1.739s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[1.740s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_not_composable.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[1.740s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_defer.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[1.740s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/__init__.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[1.741s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_queue_goals.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[1.741s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server_single_goal.py to server_single_goal.cpython-38.pyc
+[1.742s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server.py to server.cpython-38.pyc
+[1.743s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server_not_composable.py to server_not_composable.cpython-38.pyc
+[1.743s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server_defer.py to server_defer.cpython-38.pyc
+[1.743s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/__init__.py to __init__.cpython-38.pyc
+[1.743s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server_queue_goals.py to server_queue_goals.cpython-38.pyc
+[1.743s] running install_data
+[1.743s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index
+[1.743s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index
+[1.743s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[1.743s] copying resource/examples_rclpy_minimal_action_server -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[1.744s] copying package.xml -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server
+[1.744s] running install_egg_info
+[1.744s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server-0.9.4-py3.8.egg-info
+[1.744s] running install_scripts
+[1.766s] Installing server script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[1.767s] Installing server_defer script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[1.767s] Installing server_not_composable script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[1.767s] Installing server_queue_goals script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[1.767s] Installing server_single_goal script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[1.767s] writing list of installed files to '/root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/install.log'
+[1.864s] Invoked command in '/root/ROS2Docker/ros2_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/build install --prefix /root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server --record /root/ROS2Docker/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed

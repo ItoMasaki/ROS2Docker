@@ -1,0 +1,57 @@
+[1.468s] Invoking command in '/root/ROS2Docker/ros2_ws/src/examples/rclpy/executors': PYTHONPATH=/root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build install --prefix /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors --record /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed
+[1.673s] running egg_info
+[1.673s] creating ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info
+[1.674s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[1.674s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[1.674s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[1.674s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[1.674s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[1.676s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[1.724s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[1.725s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[1.725s] running build
+[1.726s] running build_py
+[1.726s] creating /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build
+[1.726s] creating /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build/lib
+[1.726s] creating /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[1.726s] copying examples_rclpy_executors/listener.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[1.726s] copying examples_rclpy_executors/talker.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[1.726s] copying examples_rclpy_executors/composed.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[1.727s] copying examples_rclpy_executors/__init__.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[1.727s] copying examples_rclpy_executors/custom_executor.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[1.727s] copying examples_rclpy_executors/callback_group.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[1.727s] copying examples_rclpy_executors/custom_callback_group.py -> /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[1.727s] running install
+[1.730s] running install_lib
+[1.731s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[1.732s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[1.732s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[1.732s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[1.732s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[1.733s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[1.733s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[1.733s] copying /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[1.733s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/listener.py to listener.cpython-38.pyc
+[1.734s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/talker.py to talker.cpython-38.pyc
+[1.735s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/composed.py to composed.cpython-38.pyc
+[1.735s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-38.pyc
+[1.735s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-38.pyc
+[1.736s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-38.pyc
+[1.736s] byte-compiling /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-38.pyc
+[1.737s] running install_data
+[1.739s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/share/ament_index
+[1.739s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index
+[1.739s] creating /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[1.739s] copying resource/examples_rclpy_executors -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[1.739s] copying package.xml -> /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[1.739s] running install_egg_info
+[1.746s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors-0.9.4-py3.8.egg-info
+[1.750s] running install_scripts
+[1.766s] Installing callback_group script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.766s] Installing composed script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.767s] Installing custom_callback_group script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.767s] Installing custom_executor script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.767s] Installing listener script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.767s] Installing talker script to /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.767s] writing list of installed files to '/root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/install.log'
+[1.844s] Invoked command in '/root/ROS2Docker/ros2_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/root/ROS2Docker/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/build install --prefix /root/ROS2Docker/ros2_ws/install/examples_rclpy_executors --record /root/ROS2Docker/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed

@@ -1,0 +1,82 @@
+[0.069s] Invoking command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/ROS2Docker/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer
+[1.470s] -- The C compiler identification is GNU 9.3.0
+[1.470s] -- The CXX compiler identification is GNU 9.3.0
+[1.470s] -- Check for working C compiler: /usr/bin/cc
+[1.470s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.470s] -- Detecting C compiler ABI info
+[1.470s] -- Detecting C compiler ABI info - done
+[1.470s] -- Detecting C compile features
+[1.470s] -- Detecting C compile features - done
+[1.470s] -- Check for working CXX compiler: /usr/bin/c++
+[1.471s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.471s] -- Detecting CXX compiler ABI info
+[1.471s] -- Detecting CXX compiler ABI info - done
+[1.471s] -- Detecting CXX compile features
+[1.471s] -- Detecting CXX compile features - done
+[1.471s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.471s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.471s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.471s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.472s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.472s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.472s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.472s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.472s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.472s] -- Looking for pthread.h
+[1.472s] -- Looking for pthread.h - found
+[1.472s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.472s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.472s] -- Looking for pthread_create in pthreads
+[1.473s] -- Looking for pthread_create in pthreads - not found
+[1.473s] -- Looking for pthread_create in pthread
+[1.473s] -- Looking for pthread_create in pthread - found
+[1.473s] -- Found Threads: TRUE  
+[1.488s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.575s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.576s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.577s] -- Configured cppcheck include dirs: 
+[1.577s] -- Configured cppcheck exclude dirs and/or files: 
+[1.578s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.578s] -- Configured cpplint exclude dirs and/or files: 
+[1.579s] -- Added test 'lint_cmake' to check CMake code style
+[1.580s] -- Added test 'uncrustify' to check C / C++ code style
+[1.580s] -- Configured uncrustify additional arguments: 
+[1.581s] -- Added test 'xmllint' to check XML markup files
+[1.585s] -- Configuring done
+[1.597s] -- Generating done
+[1.599s] -- Build files have been written to: /root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_timer
+[1.610s] Invoked command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/ROS2Docker/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer
+[1.611s] Invoking command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_timer -- -j16 -l16
+[1.830s] [35m[1mScanning dependencies of target timer_member_function[0m
+[1.830s] [35m[1mScanning dependencies of target timer_lambda[0m
+[1.830s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[1.830s] [ 50%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[4.662s] [ 75%] [32m[1mLinking CXX executable timer_member_function[0m
+[4.788s] [100%] [32m[1mLinking CXX executable timer_lambda[0m
+[4.911s] [100%] Built target timer_member_function
+[5.109s] [100%] Built target timer_lambda
+[5.138s] Invoked command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_timer -- -j16 -l16
+[5.377s] Invoking command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_timer
+[5.402s] -- Install configuration: ""
+[5.402s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[5.402s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda" to ""
+[5.402s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[5.402s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function" to ""
+[5.402s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[5.403s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[5.403s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[5.403s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[5.403s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[5.403s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[5.403s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[5.404s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[5.404s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[5.404s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[5.404s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[5.404s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[5.404s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[5.405s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[5.421s] -- Installing: /root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[5.424s] Invoked command in '/root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/ROS2Docker/ros2_ws/build/examples_rclcpp_minimal_timer

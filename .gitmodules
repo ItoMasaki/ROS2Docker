@@ -1,0 +1,24 @@
+[submodule "turtlebot_simulator"]
+	path = catkin_ws/src/turtlebot_simulator
+	url = https://github.com/turtlebot/turtlebot_simulator.git
+[submodule "kobuki"]
+	path = catkin_ws/src/kobuki
+	url = https://github.com/yujinrobot/kobuki.git
+[submodule "turtlebot_msgs"]
+	path = catkin_ws/src/turtlebot_msgs
+	url = http://github.com/turtlebot/turtlebot_msgs.git
+[submodule "yujin_ocs"]
+	path = catkin_ws/src/yujin_ocs
+	url = https://github.com/yujinrobot/yujin_ocs.git
+[submodule "yocs_msgs"]
+	path = catkin_ws/src/yocs_msgs
+	url = https://github.com/yujinrobot/yocs_msgs.git
+[submodule "turtlebot"]
+	path = catkin_ws/src/turtlebot
+	url = https://github.com/turtlebot/turtlebot.git
+[submodule "depthimage_to_laserscan"]
+	path = catkin_ws/src/depthimage_to_laserscan
+	url = https://github.com/ros-perception/depthimage_to_laserscan.git
+[submodule "catkin_ws/src/linux_peripheral_interfaces"]
+	path = catkin_ws/src/linux_peripheral_interfaces
+	url = https://github.com/ros-drivers/linux_peripheral_interfaces.git
