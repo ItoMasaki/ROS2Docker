@@ -1,0 +1,15 @@
+{
+  "package_name": "ur_msgs",
+  "non_idl_tuples": [
+    "/root/ROS2Docker/ros2_ws/src/ur_msgs:msg/Analog.msg",
+    "/root/ROS2Docker/ros2_ws/src/ur_msgs:msg/Digital.msg",
+    "/root/ROS2Docker/ros2_ws/src/ur_msgs:msg/IOStates.msg",
+    "/root/ROS2Docker/ros2_ws/src/ur_msgs:msg/RobotStateRTMsg.msg",
+    "/root/ROS2Docker/ros2_ws/src/ur_msgs:msg/MasterboardDataMsg.msg",
+    "/root/ROS2Docker/ros2_ws/src/ur_msgs:msg/RobotModeDataMsg.msg",
+    "/root/ROS2Docker/ros2_ws/src/ur_msgs:msg/ToolDataMsg.msg",
+    "/root/ROS2Docker/ros2_ws/src/ur_msgs:srv/SetPayload.srv",
+    "/root/ROS2Docker/ros2_ws/src/ur_msgs:srv/SetSpeedSliderFraction.srv",
+    "/root/ROS2Docker/ros2_ws/src/ur_msgs:srv/SetIO.srv"
+  ]
+}

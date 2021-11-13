@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>smach_napp</name>
+  <version>0.8.0</version>
+  <description>This is a Neuron App of FSM based on SMACH</description>
+  <maintainer email="chih-chieh.chang@adlinktech.com">Chih-Chieh.Chang</maintainer>
+  <license>BSD</license>
+  
+       
+  <depend>rclpy          </depend>
+  <depend>std_msgs       </depend>
+  <depend>std_srvs       </depend>
+  <depend>action_msgs    </depend>
+  <depend>geometry_msgs  </depend>
+  <depend>smach          </depend>
+  <depend>smach_ros      </depend>
+  <depend>actionlib      </depend>
+  <depend>nav2_msgs      </depend>
+  <depend>time           </depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+  
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

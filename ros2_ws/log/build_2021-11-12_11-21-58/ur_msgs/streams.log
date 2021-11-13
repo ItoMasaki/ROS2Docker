@@ -1,0 +1,479 @@
+[0.022s] Invoking command in '/root/ROS2Docker/ros2_ws/build/ur_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ROS2Docker/ros2_ws/install/ur_ignition:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ROS2Docker/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /root/ROS2Docker/ros2_ws/src/ur_msgs -DCMAKE_INSTALL_PREFIX=/root/ROS2Docker/ros2_ws/install/ur_msgs
+[0.065s] -- The C compiler identification is GNU 9.3.0
+[0.109s] -- The CXX compiler identification is GNU 9.3.0
+[0.113s] -- Check for working C compiler: /usr/bin/cc
+[0.165s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.165s] -- Detecting C compiler ABI info
+[0.218s] -- Detecting C compiler ABI info - done
+[0.228s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.230s] -- Check for working CXX compiler: /usr/bin/c++
+[0.291s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.292s] -- Detecting CXX compiler ABI info
+[0.354s] -- Detecting CXX compiler ABI info - done
+[0.364s] -- Detecting CXX compile features
+[0.364s] -- Detecting CXX compile features - done
+[0.366s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.385s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.386s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.529s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.552s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.557s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.622s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.649s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.718s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.742s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.754s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.803s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.878s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.015s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.232s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.329s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.353s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.354s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.375s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.375s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.375s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.375s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.392s] -- Found PythonExtra: .so  
+[1.471s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.472s] -- Added test 'lint_cmake' to check CMake code style
+[1.473s] -- Added test 'xmllint' to check XML markup files
+[1.479s] -- Configuring done
+[1.534s] -- Generating done
+[1.536s] -- Build files have been written to: /root/ROS2Docker/ros2_ws/build/ur_msgs
+[1.542s] Invoked command in '/root/ROS2Docker/ros2_ws/build/ur_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ROS2Docker/ros2_ws/install/ur_ignition:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ROS2Docker/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /root/ROS2Docker/ros2_ws/src/ur_msgs -DCMAKE_INSTALL_PREFIX=/root/ROS2Docker/ros2_ws/install/ur_msgs
+[1.544s] Invoking command in '/root/ROS2Docker/ros2_ws/build/ur_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ROS2Docker/ros2_ws/install/ur_ignition:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ROS2Docker/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /root/ROS2Docker/ros2_ws/build/ur_msgs -- -j16 -l16
+[1.577s] [35m[1mScanning dependencies of target ur_msgs__cpp[0m
+[1.577s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.585s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.326s] [  1%] Built target ur_msgs__cpp
+[2.332s] [35m[1mScanning dependencies of target ur_msgs__rosidl_generator_c[0m
+[2.335s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.335s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.335s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.345s] [  5%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/io_states__functions.c.o[0m
+[2.346s] [  7%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/analog__functions.c.o[0m
+[2.346s] [  7%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/digital__functions.c.o[0m
+[2.347s] [  8%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/robot_state_rt_msg__functions.c.o[0m
+[2.347s] [  9%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/robot_mode_data_msg__functions.c.o[0m
+[2.347s] [ 10%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/masterboard_data_msg__functions.c.o[0m
+[2.348s] [ 11%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/srv/detail/set_payload__functions.c.o[0m
+[2.348s] [ 12%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/tool_data_msg__functions.c.o[0m
+[2.348s] [ 13%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/srv/detail/set_speed_slider_fraction__functions.c.o[0m
+[2.348s] [ 14%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/srv/detail/set_io__functions.c.o[0m
+[2.395s] [ 15%] [32m[1mLinking C shared library libur_msgs__rosidl_generator_c.so[0m
+[2.438s] [ 15%] Built target ur_msgs__rosidl_generator_c
+[2.462s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.465s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.048s] [35m[1mScanning dependencies of target ur_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.064s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/masterboard_data_msg__type_support.cpp.o[0m
+[3.064s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/digital__type_support.cpp.o[0m
+[3.064s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/robot_state_rt_msg__type_support.cpp.o[0m
+[3.064s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/io_states__type_support.cpp.o[0m
+[3.064s] [ 23%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/robot_mode_data_msg__type_support.cpp.o[0m
+[3.065s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/analog__type_support.cpp.o[0m
+[3.074s] [ 25%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/tool_data_msg__type_support.cpp.o[0m
+[3.074s] [ 25%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/srv/detail/set_payload__type_support.cpp.o[0m
+[3.093s] [ 26%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/srv/detail/set_speed_slider_fraction__type_support.cpp.o[0m
+[3.176s] [ 27%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/srv/detail/set_io__type_support.cpp.o[0m
+[3.343s] [35m[1mScanning dependencies of target ur_msgs__rosidl_typesupport_c[0m
+[3.380s] [ 28%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/analog__type_support.cpp.o[0m
+[3.388s] [ 29%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/digital__type_support.cpp.o[0m
+[3.412s] [ 30%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/io_states__type_support.cpp.o[0m
+[3.416s] [35m[1mScanning dependencies of target ur_msgs__rosidl_typesupport_cpp[0m
+[3.450s] [ 31%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/analog__type_support.cpp.o[0m
+[3.452s] [ 32%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/digital__type_support.cpp.o[0m
+[3.464s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/io_states__type_support.cpp.o[0m
+[3.474s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/robot_state_rt_msg__type_support.cpp.o[0m
+[3.485s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/masterboard_data_msg__type_support.cpp.o[0m
+[3.519s] [ 36%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/robot_mode_data_msg__type_support.cpp.o[0m
+[3.531s] [ 37%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/tool_data_msg__type_support.cpp.o[0m
+[3.563s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/robot_state_rt_msg__type_support.cpp.o[0m
+[3.569s] [ 39%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/masterboard_data_msg__type_support.cpp.o[0m
+[3.576s] [ 39%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/srv/set_speed_slider_fraction__type_support.cpp.o[0m
+[3.577s] [ 40%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/srv/set_payload__type_support.cpp.o[0m
+[3.579s] [ 41%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/srv/set_io__type_support.cpp.o[0m
+[3.581s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/robot_mode_data_msg__type_support.cpp.o[0m
+[3.592s] [ 43%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/tool_data_msg__type_support.cpp.o[0m
+[3.597s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/srv/set_payload__type_support.cpp.o[0m
+[3.612s] [ 45%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/srv/set_speed_slider_fraction__type_support.cpp.o[0m
+[3.658s] [ 46%] [32m[1mLinking CXX shared library libur_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.669s] [ 47%] [32m[1mLinking CXX shared library libur_msgs__rosidl_typesupport_c.so[0m
+[3.676s] [ 48%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/srv/set_io__type_support.cpp.o[0m
+[3.741s] [35m[1mScanning dependencies of target ur_msgs__rosidl_typesupport_introspection_c[0m
+[3.762s] [35m[1mScanning dependencies of target ur_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[3.780s] [ 49%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/msg/detail/analog__type_support.c.o[0m
+[3.781s] [ 50%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/msg/detail/digital__type_support.c.o[0m
+[3.788s] [ 50%] Built target ur_msgs__rosidl_typesupport_c
+[3.800s] [ 51%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/msg/detail/io_states__type_support.c.o[0m
+[3.808s] [ 51%] Built target ur_msgs__rosidl_typesupport_introspection_cpp
+[3.831s] [ 52%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/analog__type_support.cpp.o[0m
+[3.832s] [ 53%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/msg/detail/robot_state_rt_msg__type_support.c.o[0m
+[3.844s] [ 54%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/digital__type_support.cpp.o[0m
+[3.857s] [ 54%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/io_states__type_support.cpp.o[0m
+[3.876s] [ 55%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/msg/detail/robot_mode_data_msg__type_support.c.o[0m
+[3.879s] [ 56%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/msg/detail/masterboard_data_msg__type_support.c.o[0m
+[3.886s] [ 57%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/msg/detail/tool_data_msg__type_support.c.o[0m
+[3.916s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/robot_state_rt_msg__type_support.cpp.o[0m
+[3.931s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/masterboard_data_msg__type_support.cpp.o[0m
+[3.953s] [ 60%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/robot_mode_data_msg__type_support.cpp.o[0m
+[3.965s] [ 61%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/srv/detail/set_payload__type_support.c.o[0m
+[4.004s] [ 62%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/srv/detail/set_speed_slider_fraction__type_support.c.o[0m
+[4.015s] [ 63%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/srv/detail/set_io__type_support.c.o[0m
+[4.017s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/srv/detail/dds_fastrtps/set_payload__type_support.cpp.o[0m
+[4.027s] [ 65%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/srv/detail/dds_fastrtps/set_speed_slider_fraction__type_support.cpp.o[0m
+[4.038s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/tool_data_msg__type_support.cpp.o[0m
+[4.038s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/srv/detail/dds_fastrtps/set_io__type_support.cpp.o[0m
+[4.092s] [ 68%] [32m[1mLinking CXX shared library libur_msgs__rosidl_typesupport_cpp.so[0m
+[4.134s] [ 69%] [32m[1mLinking C shared library libur_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.229s] [ 69%] Built target ur_msgs__rosidl_typesupport_cpp
+[4.280s] [ 69%] Built target ur_msgs__rosidl_typesupport_introspection_c
+[4.941s] [ 70%] [32m[1mLinking CXX shared library libur_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.083s] [ 70%] Built target ur_msgs__rosidl_typesupport_fastrtps_cpp
+[5.097s] [ 71%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.982s] [35m[1mScanning dependencies of target ur_msgs__rosidl_typesupport_fastrtps_c[0m
+[6.005s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/msg/detail/io_states__type_support_c.cpp.o[0m
+[6.005s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/msg/detail/masterboard_data_msg__type_support_c.cpp.o[0m
+[6.005s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/msg/detail/robot_mode_data_msg__type_support_c.cpp.o[0m
+[6.006s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/msg/detail/analog__type_support_c.cpp.o[0m
+[6.006s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/msg/detail/robot_state_rt_msg__type_support_c.cpp.o[0m
+[6.006s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/srv/detail/set_payload__type_support_c.cpp.o[0m
+[6.006s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/msg/detail/digital__type_support_c.cpp.o[0m
+[6.007s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/msg/detail/tool_data_msg__type_support_c.cpp.o[0m
+[6.008s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/srv/detail/set_io__type_support_c.cpp.o[0m
+[6.008s] [ 81%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/srv/detail/set_speed_slider_fraction__type_support_c.cpp.o[0m
+[6.454s] [ 82%] [32m[1mLinking CXX shared library libur_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.519s] [ 82%] Built target ur_msgs__rosidl_typesupport_fastrtps_c
+[6.526s] [35m[1mScanning dependencies of target ur_msgs[0m
+[6.535s] [ 82%] Built target ur_msgs
+[6.543s] [35m[1mScanning dependencies of target ur_msgs__py[0m
+[6.551s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.248s] [ 83%] Built target ur_msgs__py
+[8.256s] [35m[1mScanning dependencies of target ur_msgs__python[0m
+[8.284s] [ 84%] [32mBuilding C object CMakeFiles/ur_msgs__python.dir/rosidl_generator_py/ur_msgs/msg/_digital_s.c.o[0m
+[8.284s] [ 86%] [32mBuilding C object CMakeFiles/ur_msgs__python.dir/rosidl_generator_py/ur_msgs/msg/_masterboard_data_msg_s.c.o[0m
+[8.284s] [ 86%] [32mBuilding C object CMakeFiles/ur_msgs__python.dir/rosidl_generator_py/ur_msgs/msg/_robot_mode_data_msg_s.c.o[0m
+[8.284s] [ 87%] [32mBuilding C object CMakeFiles/ur_msgs__python.dir/rosidl_generator_py/ur_msgs/msg/_tool_data_msg_s.c.o[0m
+[8.285s] [ 88%] [32mBuilding C object CMakeFiles/ur_msgs__python.dir/rosidl_generator_py/ur_msgs/msg/_analog_s.c.o[0m
+[8.286s] [ 89%] [32mBuilding C object CMakeFiles/ur_msgs__python.dir/rosidl_generator_py/ur_msgs/msg/_io_states_s.c.o[0m
+[8.286s] [ 90%] [32mBuilding C object CMakeFiles/ur_msgs__python.dir/rosidl_generator_py/ur_msgs/msg/_robot_state_rt_msg_s.c.o[0m
+[8.287s] [ 91%] [32mBuilding C object CMakeFiles/ur_msgs__python.dir/rosidl_generator_py/ur_msgs/srv/_set_io_s.c.o[0m
+[8.288s] [ 92%] [32mBuilding C object CMakeFiles/ur_msgs__python.dir/rosidl_generator_py/ur_msgs/srv/_set_speed_slider_fraction_s.c.o[0m
+[8.288s] [ 93%] [32mBuilding C object CMakeFiles/ur_msgs__python.dir/rosidl_generator_py/ur_msgs/srv/_set_payload_s.c.o[0m
+[8.413s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/ur_msgs/libur_msgs__python.so[0m
+[8.448s] [ 94%] Built target ur_msgs__python
+[8.456s] [35m[1mScanning dependencies of target ur_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[8.456s] [35m[1mScanning dependencies of target ur_msgs__rosidl_typesupport_c__pyext[0m
+[8.456s] [35m[1mScanning dependencies of target ur_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.471s] [ 96%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ur_msgs/_ur_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.471s] [ 96%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ur_msgs/_ur_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.471s] [ 97%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ur_msgs/_ur_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.561s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/ur_msgs/ur_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[8.561s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/ur_msgs/ur_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[8.563s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/ur_msgs/ur_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[8.592s] [100%] Built target ur_msgs__rosidl_typesupport_c__pyext
+[8.592s] [100%] Built target ur_msgs__rosidl_typesupport_introspection_c__pyext
+[8.616s] [100%] Built target ur_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.626s] Invoked command in '/root/ROS2Docker/ros2_ws/build/ur_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ROS2Docker/ros2_ws/install/ur_ignition:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ROS2Docker/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /root/ROS2Docker/ros2_ws/build/ur_msgs -- -j16 -l16
+[8.757s] Invoking command in '/root/ROS2Docker/ros2_ws/build/ur_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ROS2Docker/ros2_ws/install/ur_ignition:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ROS2Docker/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /root/ROS2Docker/ros2_ws/build/ur_msgs
+[8.764s] -- Install configuration: ""
+[8.764s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_msgs
+[8.765s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs
+[8.765s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg
+[8.765s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/robot_state_rt_msg.h
+[8.765s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/tool_data_msg.h
+[8.765s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/masterboard_data_msg.h
+[8.765s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/analog.h
+[8.765s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/io_states.h
+[8.765s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/robot_mode_data_msg.h
+[8.765s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.765s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/digital.h
+[8.765s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail
+[8.765s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/analog__type_support.h
+[8.765s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/tool_data_msg__type_support.h
+[8.765s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/analog__struct.h
+[8.766s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/masterboard_data_msg__type_support.h
+[8.766s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_state_rt_msg__functions.h
+[8.766s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/tool_data_msg__functions.c
+[8.766s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/digital__type_support.h
+[8.766s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/digital__functions.c
+[8.766s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/masterboard_data_msg__functions.c
+[8.766s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/masterboard_data_msg__struct.h
+[8.766s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/analog__functions.h
+[8.766s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/io_states__functions.c
+[8.766s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_mode_data_msg__functions.h
+[8.766s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_state_rt_msg__functions.c
+[8.766s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/analog__functions.c
+[8.766s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/io_states__struct.h
+[8.766s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/masterboard_data_msg__functions.h
+[8.766s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/tool_data_msg__functions.h
+[8.767s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_state_rt_msg__type_support.h
+[8.767s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/digital__struct.h
+[8.767s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/io_states__functions.h
+[8.767s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/tool_data_msg__struct.h
+[8.767s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_state_rt_msg__struct.h
+[8.767s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/io_states__type_support.h
+[8.767s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/digital__functions.h
+[8.767s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_mode_data_msg__type_support.h
+[8.767s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_mode_data_msg__functions.c
+[8.767s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_mode_data_msg__struct.h
+[8.767s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv
+[8.767s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/set_payload.h
+[8.767s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/set_io.h
+[8.767s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/set_speed_slider_fraction.h
+[8.767s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail
+[8.767s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_payload__struct.h
+[8.768s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_io__type_support.h
+[8.768s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_speed_slider_fraction__type_support.h
+[8.768s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_io__functions.c
+[8.768s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_io__struct.h
+[8.768s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_io__functions.h
+[8.768s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_speed_slider_fraction__functions.h
+[8.768s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_payload__functions.h
+[8.768s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_payload__functions.c
+[8.768s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_speed_slider_fraction__struct.h
+[8.768s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_payload__type_support.h
+[8.768s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_speed_slider_fraction__functions.c
+[8.768s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/environment/library_path.sh
+[8.768s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/environment/library_path.dsv
+[8.768s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/libur_msgs__rosidl_generator_c.so
+[8.768s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/ur_msgs/lib/libur_msgs__rosidl_generator_c.so" to ""
+[8.768s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs
+[8.768s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg
+[8.768s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.769s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail
+[8.769s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_mode_data_msg__rosidl_typesupport_fastrtps_c.h
+[8.769s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/masterboard_data_msg__rosidl_typesupport_fastrtps_c.h
+[8.769s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_state_rt_msg__rosidl_typesupport_fastrtps_c.h
+[8.769s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/tool_data_msg__rosidl_typesupport_fastrtps_c.h
+[8.769s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/digital__rosidl_typesupport_fastrtps_c.h
+[8.769s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/io_states__rosidl_typesupport_fastrtps_c.h
+[8.769s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/analog__rosidl_typesupport_fastrtps_c.h
+[8.769s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv
+[8.769s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail
+[8.769s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_io__rosidl_typesupport_fastrtps_c.h
+[8.769s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_payload__rosidl_typesupport_fastrtps_c.h
+[8.769s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_speed_slider_fraction__rosidl_typesupport_fastrtps_c.h
+[8.769s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_fastrtps_c.so
+[8.769s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.769s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs
+[8.769s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg
+[8.770s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.770s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail
+[8.770s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/dds_fastrtps
+[8.770s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_mode_data_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[8.770s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/digital__rosidl_typesupport_fastrtps_cpp.hpp
+[8.770s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/io_states__rosidl_typesupport_fastrtps_cpp.hpp
+[8.770s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/analog__rosidl_typesupport_fastrtps_cpp.hpp
+[8.770s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/tool_data_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[8.770s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/masterboard_data_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[8.770s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_state_rt_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[8.770s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv
+[8.770s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail
+[8.770s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/dds_fastrtps
+[8.770s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_io__rosidl_typesupport_fastrtps_cpp.hpp
+[8.770s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_payload__rosidl_typesupport_fastrtps_cpp.hpp
+[8.770s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_speed_slider_fraction__rosidl_typesupport_fastrtps_cpp.hpp
+[8.770s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.771s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.771s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs
+[8.771s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg
+[8.771s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail
+[8.771s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/analog__type_support.c
+[8.771s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/digital__type_support.c
+[8.771s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/digital__rosidl_typesupport_introspection_c.h
+[8.771s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/masterboard_data_msg__type_support.c
+[8.771s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/analog__rosidl_typesupport_introspection_c.h
+[8.771s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/masterboard_data_msg__rosidl_typesupport_introspection_c.h
+[8.771s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_mode_data_msg__rosidl_typesupport_introspection_c.h
+[8.771s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/tool_data_msg__type_support.c
+[8.771s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_mode_data_msg__type_support.c
+[8.771s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_state_rt_msg__type_support.c
+[8.771s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/io_states__rosidl_typesupport_introspection_c.h
+[8.772s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/io_states__type_support.c
+[8.772s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/tool_data_msg__rosidl_typesupport_introspection_c.h
+[8.772s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_state_rt_msg__rosidl_typesupport_introspection_c.h
+[8.772s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.772s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv
+[8.772s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail
+[8.772s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_io__rosidl_typesupport_introspection_c.h
+[8.772s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_speed_slider_fraction__type_support.c
+[8.772s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_payload__type_support.c
+[8.772s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_speed_slider_fraction__rosidl_typesupport_introspection_c.h
+[8.772s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_io__type_support.c
+[8.772s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_payload__rosidl_typesupport_introspection_c.h
+[8.772s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_introspection_c.so
+[8.772s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.772s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_c.so
+[8.772s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_c.so" to ""
+[8.773s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs
+[8.773s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg
+[8.773s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/digital.hpp
+[8.773s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/robot_state_rt_msg.hpp
+[8.773s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/analog.hpp
+[8.773s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/masterboard_data_msg.hpp
+[8.773s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/tool_data_msg.hpp
+[8.773s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/io_states.hpp
+[8.773s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/robot_mode_data_msg.hpp
+[8.773s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail
+[8.773s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/tool_data_msg__builder.hpp
+[8.773s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/analog__traits.hpp
+[8.773s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/masterboard_data_msg__traits.hpp
+[8.773s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/tool_data_msg__traits.hpp
+[8.773s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/digital__traits.hpp
+[8.773s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/tool_data_msg__struct.hpp
+[8.774s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_state_rt_msg__traits.hpp
+[8.774s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/masterboard_data_msg__struct.hpp
+[8.774s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/io_states__struct.hpp
+[8.774s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/io_states__traits.hpp
+[8.774s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/io_states__builder.hpp
+[8.774s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_state_rt_msg__builder.hpp
+[8.774s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/masterboard_data_msg__builder.hpp
+[8.774s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_mode_data_msg__builder.hpp
+[8.774s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/analog__builder.hpp
+[8.774s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/digital__builder.hpp
+[8.774s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_mode_data_msg__struct.hpp
+[8.774s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_mode_data_msg__traits.hpp
+[8.774s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/analog__struct.hpp
+[8.774s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_state_rt_msg__struct.hpp
+[8.774s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/digital__struct.hpp
+[8.774s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv
+[8.775s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/set_io.hpp
+[8.775s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/set_payload.hpp
+[8.775s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/set_speed_slider_fraction.hpp
+[8.775s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail
+[8.775s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_speed_slider_fraction__struct.hpp
+[8.775s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_speed_slider_fraction__traits.hpp
+[8.775s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_payload__builder.hpp
+[8.775s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_payload__struct.hpp
+[8.775s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_payload__traits.hpp
+[8.775s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_io__builder.hpp
+[8.775s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_io__traits.hpp
+[8.775s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_speed_slider_fraction__builder.hpp
+[8.775s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_io__struct.hpp
+[8.775s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs
+[8.775s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg
+[8.775s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail
+[8.776s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_state_rt_msg__rosidl_typesupport_introspection_cpp.hpp
+[8.776s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/digital__rosidl_typesupport_introspection_cpp.hpp
+[8.776s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/tool_data_msg__type_support.cpp
+[8.776s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_mode_data_msg__rosidl_typesupport_introspection_cpp.hpp
+[8.776s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_mode_data_msg__type_support.cpp
+[8.776s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/tool_data_msg__rosidl_typesupport_introspection_cpp.hpp
+[8.776s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/analog__rosidl_typesupport_introspection_cpp.hpp
+[8.776s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/robot_state_rt_msg__type_support.cpp
+[8.776s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/digital__type_support.cpp
+[8.776s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/masterboard_data_msg__type_support.cpp
+[8.776s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/masterboard_data_msg__rosidl_typesupport_introspection_cpp.hpp
+[8.776s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/analog__type_support.cpp
+[8.776s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/io_states__type_support.cpp
+[8.776s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/msg/detail/io_states__rosidl_typesupport_introspection_cpp.hpp
+[8.776s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv
+[8.776s] -- Up-to-date: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail
+[8.776s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_speed_slider_fraction__rosidl_typesupport_introspection_cpp.hpp
+[8.777s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_speed_slider_fraction__type_support.cpp
+[8.777s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_io__rosidl_typesupport_introspection_cpp.hpp
+[8.777s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_io__type_support.cpp
+[8.777s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_payload__rosidl_typesupport_introspection_cpp.hpp
+[8.777s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/include/ur_msgs/srv/detail/set_payload__type_support.cpp
+[8.777s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_introspection_cpp.so
+[8.777s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.777s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_cpp.so
+[8.777s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_cpp.so" to ""
+[8.777s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/environment/pythonpath.sh
+[8.777s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/environment/pythonpath.dsv
+[8.777s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/__init__.py
+[8.801s] Compiling '/root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/__init__.py'...
+[8.804s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/msg
+[8.804s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/msg/_io_states.py
+[8.804s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/msg/_robot_state_rt_msg.py
+[8.804s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/msg/_robot_mode_data_msg_s.c
+[8.804s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/msg/_io_states_s.c
+[8.804s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/msg/_tool_data_msg_s.c
+[8.804s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/msg/_masterboard_data_msg.py
+[8.804s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/msg/_digital.py
+[8.804s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/msg/__init__.py
+[8.805s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/msg/_robot_state_rt_msg_s.c
+[8.805s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/msg/_tool_data_msg.py
+[8.805s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/msg/_analog.py
+[8.805s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/msg/_digital_s.c
+[8.805s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/msg/_analog_s.c
+[8.805s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/msg/_robot_mode_data_msg.py
+[8.805s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/msg/_masterboard_data_msg_s.c
+[8.805s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/srv
+[8.805s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/srv/_set_speed_slider_fraction_s.c
+[8.805s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/srv/_set_payload.py
+[8.805s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/srv/_set_io_s.c
+[8.805s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/srv/_set_speed_slider_fraction.py
+[8.805s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/srv/__init__.py
+[8.805s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/srv/_set_payload_s.c
+[8.805s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/srv/_set_io.py
+[8.806s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/ur_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[8.806s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/ur_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[8.806s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/ur_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[8.806s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/ur_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[8.806s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/ur_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[8.806s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/ur_msgs/lib/python3.8/site-packages/ur_msgs/ur_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[8.807s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/lib/libur_msgs__python.so
+[8.807s] -- Set runtime path of "/root/ROS2Docker/ros2_ws/install/ur_msgs/lib/libur_msgs__python.so" to ""
+[8.807s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/msg/Analog.idl
+[8.807s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/msg/Digital.idl
+[8.807s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/msg/IOStates.idl
+[8.807s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/msg/RobotStateRTMsg.idl
+[8.807s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/msg/MasterboardDataMsg.idl
+[8.807s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/msg/RobotModeDataMsg.idl
+[8.807s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/msg/ToolDataMsg.idl
+[8.808s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/srv/SetPayload.idl
+[8.808s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/srv/SetSpeedSliderFraction.idl
+[8.808s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/srv/SetIO.idl
+[8.808s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/msg/Analog.msg
+[8.808s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/msg/Digital.msg
+[8.808s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/msg/IOStates.msg
+[8.808s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/msg/RobotStateRTMsg.msg
+[8.808s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/msg/MasterboardDataMsg.msg
+[8.808s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/msg/RobotModeDataMsg.msg
+[8.808s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/msg/ToolDataMsg.msg
+[8.808s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/srv/SetPayload.srv
+[8.808s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/srv/SetPayload_Request.msg
+[8.808s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/srv/SetPayload_Response.msg
+[8.809s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/srv/SetSpeedSliderFraction.srv
+[8.809s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/srv/SetSpeedSliderFraction_Request.msg
+[8.809s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/srv/SetSpeedSliderFraction_Response.msg
+[8.809s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/srv/SetIO.srv
+[8.809s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/srv/SetIO_Request.msg
+[8.809s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/srv/SetIO_Response.msg
+[8.809s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ament_index/resource_index/package_run_dependencies/ur_msgs
+[8.809s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ament_index/resource_index/parent_prefix_path/ur_msgs
+[8.809s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/environment/ament_prefix_path.sh
+[8.809s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/environment/ament_prefix_path.dsv
+[8.809s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/environment/path.sh
+[8.810s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/environment/path.dsv
+[8.810s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/local_setup.bash
+[8.810s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/local_setup.sh
+[8.810s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/local_setup.zsh
+[8.810s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/local_setup.dsv
+[8.810s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/package.dsv
+[8.810s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ament_index/resource_index/packages/ur_msgs
+[8.810s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_generator_cExport.cmake
+[8.810s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.810s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.811s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.811s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_typesupport_cExport.cmake
+[8.811s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.811s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_generator_cppExport.cmake
+[8.811s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.811s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.811s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_typesupport_cppExport.cmake
+[8.811s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.811s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/rosidl_cmake-extras.cmake
+[8.811s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.812s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.812s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.812s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.812s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.812s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.812s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgsConfig.cmake
+[8.812s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgsConfig-version.cmake
+[8.812s] -- Installing: /root/ROS2Docker/ros2_ws/install/ur_msgs/share/ur_msgs/package.xml
+[8.815s] Invoked command in '/root/ROS2Docker/ros2_ws/build/ur_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ROS2Docker/ros2_ws/install/ur_ignition:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_service:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_client:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ROS2Docker/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ROS2Docker/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /root/ROS2Docker/ros2_ws/build/ur_msgs

@@ -1,0 +1,37 @@
+[0.177s] Invoking command in '/root/ROS2Docker/ros2_ws/src/executive_smach/smach_napp': AMENT_PREFIX_PATH=/root/ROS2Docker/ros2_ws/install/smach_ros:/root/ROS2Docker/ros2_ws/install/smach_msgs:/root/ROS2Docker/ros2_ws/install/smach:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2Docker/ros2_ws/install/smach_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/ROS2Docker/ros2_ws/install/smach_msgs/lib:/root/ROS2Docker/ros2_ws/install/ur_robot_driver/lib:/root/ROS2Docker/ros2_ws/install/ur_controllers/lib:/root/ROS2Docker/ros2_ws/install/ur_msgs/lib:/root/ROS2Docker/ros2_ws/install/ur_dashboard_msgs/lib:/root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/ROS2Docker/ros2_ws/install/smach_napp/lib/python3.8/site-packages:/root/ROS2Docker/ros2_ws/install/smach_ros/lib/python3.8/site-packages:/root/ROS2Docker/ros2_ws/install/smach_msgs/lib/python3.8/site-packages:/root/ROS2Docker/ros2_ws/install/smach/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/smach_napp build --build-base /root/ROS2Docker/ros2_ws/build/smach_napp/build install --prefix /root/ROS2Docker/ros2_ws/install/smach_napp --record /root/ROS2Docker/ros2_ws/build/smach_napp/install.log --single-version-externally-managed
+[0.328s] running egg_info
+[0.328s] creating ../../../build/smach_napp/smach_napp.egg-info
+[0.329s] writing ../../../build/smach_napp/smach_napp.egg-info/PKG-INFO
+[0.329s] writing dependency_links to ../../../build/smach_napp/smach_napp.egg-info/dependency_links.txt
+[0.329s] writing entry points to ../../../build/smach_napp/smach_napp.egg-info/entry_points.txt
+[0.329s] writing requirements to ../../../build/smach_napp/smach_napp.egg-info/requires.txt
+[0.329s] writing top-level names to ../../../build/smach_napp/smach_napp.egg-info/top_level.txt
+[0.330s] writing manifest file '../../../build/smach_napp/smach_napp.egg-info/SOURCES.txt'
+[0.357s] reading manifest file '../../../build/smach_napp/smach_napp.egg-info/SOURCES.txt'
+[0.358s] writing manifest file '../../../build/smach_napp/smach_napp.egg-info/SOURCES.txt'
+[0.358s] running build
+[0.358s] running build_py
+[0.358s] creating /root/ROS2Docker/ros2_ws/build/smach_napp/build
+[0.358s] creating /root/ROS2Docker/ros2_ws/build/smach_napp/build/lib
+[0.358s] creating /root/ROS2Docker/ros2_ws/build/smach_napp/build/lib/smach_napp
+[0.358s] copying smach_napp/smach_nav2_client.py -> /root/ROS2Docker/ros2_ws/build/smach_napp/build/lib/smach_napp
+[0.358s] copying smach_napp/__init__.py -> /root/ROS2Docker/ros2_ws/build/smach_napp/build/lib/smach_napp
+[0.359s] running install
+[0.359s] running install_lib
+[0.360s] creating /root/ROS2Docker/ros2_ws/install/smach_napp/lib/python3.8/site-packages/smach_napp
+[0.360s] copying /root/ROS2Docker/ros2_ws/build/smach_napp/build/lib/smach_napp/smach_nav2_client.py -> /root/ROS2Docker/ros2_ws/install/smach_napp/lib/python3.8/site-packages/smach_napp
+[0.360s] copying /root/ROS2Docker/ros2_ws/build/smach_napp/build/lib/smach_napp/__init__.py -> /root/ROS2Docker/ros2_ws/install/smach_napp/lib/python3.8/site-packages/smach_napp
+[0.360s] byte-compiling /root/ROS2Docker/ros2_ws/install/smach_napp/lib/python3.8/site-packages/smach_napp/smach_nav2_client.py to smach_nav2_client.cpython-38.pyc
+[0.362s] byte-compiling /root/ROS2Docker/ros2_ws/install/smach_napp/lib/python3.8/site-packages/smach_napp/__init__.py to __init__.cpython-38.pyc
+[0.362s] running install_data
+[0.362s] creating /root/ROS2Docker/ros2_ws/install/smach_napp/share/ament_index
+[0.362s] creating /root/ROS2Docker/ros2_ws/install/smach_napp/share/ament_index/resource_index
+[0.362s] creating /root/ROS2Docker/ros2_ws/install/smach_napp/share/ament_index/resource_index/packages
+[0.362s] copying resource/smach_napp -> /root/ROS2Docker/ros2_ws/install/smach_napp/share/ament_index/resource_index/packages
+[0.363s] copying package.xml -> /root/ROS2Docker/ros2_ws/install/smach_napp/share/smach_napp
+[0.363s] running install_egg_info
+[0.364s] Copying ../../../build/smach_napp/smach_napp.egg-info to /root/ROS2Docker/ros2_ws/install/smach_napp/lib/python3.8/site-packages/smach_napp-0.8.0-py3.8.egg-info
+[0.364s] running install_scripts
+[0.377s] Installing smach_nav2_client script to /root/ROS2Docker/ros2_ws/install/smach_napp/lib/smach_napp
+[0.377s] writing list of installed files to '/root/ROS2Docker/ros2_ws/build/smach_napp/install.log'
+[0.392s] Invoked command in '/root/ROS2Docker/ros2_ws/src/executive_smach/smach_napp' returned '0': AMENT_PREFIX_PATH=/root/ROS2Docker/ros2_ws/install/smach_ros:/root/ROS2Docker/ros2_ws/install/smach_msgs:/root/ROS2Docker/ros2_ws/install/smach:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2Docker/ros2_ws/install/smach_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/ROS2Docker/ros2_ws/install/smach_msgs/lib:/root/ROS2Docker/ros2_ws/install/ur_robot_driver/lib:/root/ROS2Docker/ros2_ws/install/ur_controllers/lib:/root/ROS2Docker/ros2_ws/install/ur_msgs/lib:/root/ROS2Docker/ros2_ws/install/ur_dashboard_msgs/lib:/root/ROS2Docker/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/ROS2Docker/ros2_ws/install/smach_napp/lib/python3.8/site-packages:/root/ROS2Docker/ros2_ws/install/smach_ros/lib/python3.8/site-packages:/root/ROS2Docker/ros2_ws/install/smach_msgs/lib/python3.8/site-packages:/root/ROS2Docker/ros2_ws/install/smach/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/smach_napp build --build-base /root/ROS2Docker/ros2_ws/build/smach_napp/build install --prefix /root/ROS2Docker/ros2_ws/install/smach_napp --record /root/ROS2Docker/ros2_ws/build/smach_napp/install.log --single-version-externally-managed

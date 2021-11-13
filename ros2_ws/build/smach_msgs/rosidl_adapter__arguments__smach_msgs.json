@@ -1,0 +1,8 @@
+{
+  "package_name": "smach_msgs",
+  "non_idl_tuples": [
+    "/root/ROS2Docker/ros2_ws/src/executive_smach/smach_msgs:msg/SmachContainerInitialStatusCmd.msg",
+    "/root/ROS2Docker/ros2_ws/src/executive_smach/smach_msgs:msg/SmachContainerStructure.msg",
+    "/root/ROS2Docker/ros2_ws/src/executive_smach/smach_msgs:msg/SmachContainerStatus.msg"
+  ]
+}

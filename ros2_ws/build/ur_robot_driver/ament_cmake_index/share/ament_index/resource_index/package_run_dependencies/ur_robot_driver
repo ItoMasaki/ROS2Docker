@@ -1,0 +1,1 @@
+hardware_interface;pluginlib;rclcpp;std_srvs;ur_client_library;ur_dashboard_msgs;launch_testing_ament_cmake;ur_msgs;ur_description;ur_bringup;ur_controllers;controller_manager
