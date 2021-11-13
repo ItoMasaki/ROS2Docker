@@ -1,3 +1,5 @@
+# This docker image is for ros2 environment
+
 # Define arguments
 ARG nvidia_cudagl_version=11.2.0-devel-ubuntu20.04
 ARG nvidia_cudnn_version=8.1.0.77-1+cuda11.2
