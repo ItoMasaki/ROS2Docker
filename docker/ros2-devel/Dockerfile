@@ -73,7 +73,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends --allow-downgra
 
 # Install ros2 packages
 RUN apt-get update && apt-get install -y --no-install-recommends --allow-downgrades \
-    ros-foxy-desktop=0.9.2-1focal.20211012.200812 \
+    ros-foxy-desktop=0.9.2-1focal.20211014.203334 \
     && rm -rf /var/lib/apt/lists/*
 
 # Write command to bashrc
