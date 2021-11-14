@@ -4,10 +4,11 @@
 #    
 # Usage: bash BUILD-DOCKER-IMAGE.bash [docker-project]    
 #    
-# [docker-project]: Used to name the Docker container at spin-up and set different behaviors.    
-#                   If the [docker-project] is 'gitlab-ci', the image is built from scratch, as if done in GitLab CI, without trying to download it.    
-#                   Otherwise, the default value is '$USER' and the image is either pulled from the Docker registry, or built as fallback if not found.    
-    
+# [docker-project]: Used to name the Docker container at spin-up and set different behaviors.
+#                   If the [docker-project] is 'gitlab-ci', the image is built from scratch, as if done in GitLab CI, without trying to download it.
+#                   Otherwise, the default value is '$USER' and the image is either pulled from the Docker registry, or built as fallback if not found.
+
+
 ################################################################################    
     
 # Set the Docker container name from the [docker-project] argument.    
