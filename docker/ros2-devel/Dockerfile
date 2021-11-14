@@ -95,6 +95,7 @@ RUN echo "export PATH='/root/ROS2Docker/docker/ros2-devel/scripts:$PATH'" >> /ro
 
 # Copy script and add permission of execution
 WORKDIR /root/
+RUN mkdir -p /root/ROS2Docker/docker/ros2-devel/scripts
 COPY ./docker/ros2-devel/scripts /root/ROS2Docker/docker/ros2-devel/scripts
 RUN chmod -R +x /root/ROS2Docker/docker/ros2-devel/scripts/*
 
