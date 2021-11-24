@@ -1,3 +1,0 @@
-[console_scripts]
-smach_nav2_client = smach_napp.smach_nav2_client:main
-

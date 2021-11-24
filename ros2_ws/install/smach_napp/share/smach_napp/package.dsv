@@ -1,6 +1,0 @@
-source;share/smach_napp/hook/pythonpath.ps1
-source;share/smach_napp/hook/pythonpath.dsv
-source;share/smach_napp/hook/pythonpath.sh
-source;share/smach_napp/hook/ament_prefix_path.ps1
-source;share/smach_napp/hook/ament_prefix_path.dsv
-source;share/smach_napp/hook/ament_prefix_path.sh

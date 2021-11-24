@@ -1,3 +1,4 @@
-catkin_ws/devel/*
-catkin_ws/build/*
+ros2_ws/build/*
+ros2_ws/install/*
+ros2_ws/log/*
 rosbag_records/*

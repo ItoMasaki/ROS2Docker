@@ -1,4 +1,0 @@
-source;share/executive_smach/local_setup.bash
-source;share/executive_smach/local_setup.dsv
-source;share/executive_smach/local_setup.sh
-source;share/executive_smach/local_setup.zsh
