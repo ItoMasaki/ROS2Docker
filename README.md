@@ -48,16 +48,16 @@ Set up the environment of the development machine with the following instruction
    ```
 
 
-2. Clone the UR5e project repository in your home folder:  
+2. Clone this project repository in your home folder:  
    ```
-   cd ~/ && git clone [https://gitlab.com/emlab/UR5e.git](https://github.com/ItoMasaki/ROS2Docker)
+   cd ~/ && git clone https://github.com/ItoMasaki/ROS2Docker
    ```  
    Enter your GitHub developer credentials if prompted.  
 
 
 3. Configure the system environment:  
    ```
-   cd ~/UR5e/ && bash ./SETUP-DEVEL-MACHINE.bash
+   cd ~/ROS2/ && bash ./SETUP-DEVEL-MACHINE.bash
    ```  
    The execution of SETUP-DEVEL-MACHINE.bash requires sudo permissions to install the tools that allow virtualization, i.e. Docker, Docker Compose, and Nvidia Docker 2. System changes made with sudo are kept to a strict minimum.
 
@@ -67,7 +67,7 @@ Set up the environment of the development machine with the following instruction
    sudo reboot
    ```
 
-> Note 5: The SETUP-DEVEL-MACHINE.bash script is actually divided into INCL-SUDO-ENV.bash and INCL-USER-ENV.bash. The execution of INCL-SUDO-ENV.bash makes system-wide changes and thus requires sudo permissions. However, if your system has already all the necessary tools installed, you can directly set up your local user environment with cd ~/UR5e/ && bash ./INCL-USER-ENV.bash which does not require sudo permissions.
+> Note 5: The SETUP-DEVEL-MACHINE.bash script is actually divided into INCL-SUDO-ENV.bash and INCL-USER-ENV.bash. The execution of INCL-SUDO-ENV.bash makes system-wide changes and thus requires sudo permissions. However, if your system has already all the necessary tools installed, you can directly set up your local user environment with cd ~/ROS2/ && bash ./INCL-USER-ENV.bash which does not require sudo permissions.
 
 
 > Note 6: You do not need to reboot if your local user has already been added to the docker group. If so, executing docker --version should not ask for sudo. In principle, you only need to reboot after the very first time you run SETUP-DEVEL-MACHINE.bash.
@@ -79,9 +79,9 @@ Create a virtual environment using Docker (= Docker image) on the development ma
 
 1. Build the Docker image:  
    ```
-   cd ~/UR5e/ && bash ./BUILD-DOCKER-IMAGE.bash
+   cd ~/ROS2/ && bash ./BUILD-DOCKER-IMAGE.bash
    ```  
-   This script builds the image following the instructions found in ~/UR5e/docker/ur5e-devel/Dockerfile. Enter your GitLab developer credentials if prompted.
+   This script builds the image following the instructions found in ~/ROS2/docker/ros2-devel/Dockerfile. Enter your GitLab developer credentials if prompted.
 
 
 > Note 7: The script BUILD-DOCKER-IMAGE.bash first tries to download the image from the container registry of the project. If, for whatever reason, the image cannot be downloaded, the script will build it locally. The later process is slow and can take up to 1 hour. In both cases, avoid using a Wi-Fi connection to greatly accelerate the process. Note that future local builds will reuse cached data whenever possible.
@@ -93,16 +93,16 @@ Enter a virtual instance of the Docker image (= Docker container) on the develop
 
 1. Run the Docker container:  
    ```
-   cd ~/UR5e/ && bash ./RUN-DOCKER-CONTAINER.bash
+   cd ~/ROS2/ && bash ./RUN-DOCKER-CONTAINER.bash
    ```  
-   This script creates or updates the container following the instructions found in ~/UR5e/docker/docker-compose.yml. It allows the container to share system resources, such as volumes and devices, with the host machine.
+   This script creates or updates the container following the instructions found in ~/ROS2/docker/docker-compose.yml. It allows the container to share system resources, such as volumes and devices, with the host machine.
 
 
 2. Use ctrl+d to exit the container at any time.
 
 
 
-> Note 8: If no Nvidia drivers are present, the script RUN-DOCKER-CONTAINER.bash sets the Docker runtime to runc, instead of nvidia, to bypass nvidia-docker2 when entering the container. In this case, most 3D accelerated tools, including the UR5e simulator, will be extremely slow to run.
+> Note 8: If no Nvidia drivers are present, the script RUN-DOCKER-CONTAINER.bash sets the Docker runtime to runc, instead of nvidia, to bypass nvidia-docker2 when entering the container. In this case, most 3D accelerated tools will be extremely slow to run.
 
 
 > Note 9: Be careful if you need to modify docker-compose.yml as the container will be recreated from scratch the next time you run RUN-DOCKER-CONTAINER.bash.
@@ -132,7 +132,7 @@ Build and test the ROS environment (= Catkin workspace) inside the Docker contai
    ```
    roslaunch ros2_launch ros2_chatter_default.launch
    ```  
-   If everything has installed correctly, you should see a node ur5e_listener that subscribes to a publisher node called ros2_talker in a Rqt GUI.
+   If everything has installed correctly, you should see a node ros2_listener that subscribes to a publisher node called ros2_talker in a Rqt GUI.
 
 
 
@@ -140,10 +140,10 @@ Build and test the ROS environment (= Catkin workspace) inside the Docker contai
 
 
 ## Step 5: Learn the Advanced Functions
-The development environment inside the Docker container offers several useful functions that you should be aware of. These advanced functions will help you increase both the convenience and the quality of your work for the UR5e project.
+The development environment inside the Docker container offers several useful functions that you should be aware of. These advanced functions will help you increase both the convenience and the quality of your work for this project.
 
 ### Custom Bash Functions
-The development environment contains the several useful Bash functions, all starting with the prefix ur5e-, to make your work more convenient. Including, but not limited to:
+The development environment contains the several useful Bash functions, all starting with the prefix ros2-, to make your work more convenient. Including, but not limited to:
 
 
 - ros2-download-model-data: Download from the cloud all the large binary files required at runtime (models, datasets, dictionaries, weights, etc.).
@@ -161,7 +161,7 @@ The development environment contains the several useful Bash functions, all star
 
 
 ## Multiple Terminal Operation
-You can simultaneously run multiple terminals using RUN-TERMINATOR-TERMINAL.bash. This script opens Terminator with the default layout configuration stored in ~/UR5e/terminator/config. Each sub-terminal automatically executes RUN-DOCKER-CONTAINER.bash with a predefined ROS launch file for convenience. You can then select execution options by pressing specific keys as shown in the example below:
+You can simultaneously run multiple terminals using RUN-TERMINATOR-TERMINAL.bash. This script opens Terminator with the default layout configuration stored in ~/ROS2/terminator/config. Each sub-terminal automatically executes RUN-DOCKER-CONTAINER.bash with a predefined ROS launch file for convenience. You can then select execution options by pressing specific keys as shown in the example below:
 
 ```
 Run 'example_roslaunch_file.launch'? Press:
