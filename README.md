@@ -3,11 +3,11 @@ This project aims to develop a shared platform for collabrative resesearch and d
 
 ## Contribution Guidelines
 Carefully read the contribution guidelines before pushing new code or requesting a merge. Details can be found in the contribution guide:
-
+> [https://github.com/ItoMasaki/ROS2Docker/blob/main/CONTRIBUTING.md](https://github.com/ItoMasaki/ROS2Docker/blob/main/CONTRIBUTING.md)
 
 ## Reporting Issues
 Please report any issue or future work by using the GitLab issue tracker:
-
+> [https://github.com/ItoMasaki/ROS2Docker/issues](https://github.com/ItoMasaki/ROS2Docker/issues)
 
 ## Getting Started
 Follow this step-by-step guide to perform the initial setup of this project on a development machine running Ubuntu.
