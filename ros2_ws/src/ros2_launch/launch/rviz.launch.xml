@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+
+<launch>
+  <include file="$(find-pkg-share turtlebot4_viz)/launch/view_robot.launch.py"/>
+</launch>

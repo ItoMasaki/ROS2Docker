@@ -170,7 +170,7 @@
       parent = child5
       profile = default
       type = Terminal
-      command = bash ./RUN-DOCKER-CONTAINER.bash
+      command = bash ./RUN-DOCKER-CONTAINER.bash rviz.launch.xml
     [[[terminal9]]] #6
       order = 0
       parent = child8
