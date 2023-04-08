@@ -21,6 +21,8 @@ umask 0002
 
 ################################################################################
 
+git config --global --add safe.directory /root/ROS2Docker
+
 # Display the Docker container version.
 
 # If switched from Dockerfile-sensitive generation to folder-sensitive generation,
@@ -37,8 +39,8 @@ fi
 ################################################################################
 
 # Source the ROS environment.
-echo "Sourcing the ROS environment from '/opt/ros/foxy/setup.bash'."
-source /opt/ros/foxy/setup.bash
+echo "Sourcing the ROS environment from '/opt/ros/galactic/setup.bash'."
+source /opt/ros/galactic/setup.bash
 
 # Source the Catkin workspace.
 echo "Sourcing the Catkin workspace from '/root/ROS2Docker/ros2_ws/install/setup.bash'."

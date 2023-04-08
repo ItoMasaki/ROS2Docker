@@ -46,38 +46,64 @@ ENV DOCKER_RUNTIME="nvidia"
 RUN apt-get update && \
     apt-get install -y curl git lsb-release software-properties-common libsensors4-dev
 
+# Install editor
+RUN apt-get update && apt-get install -y --no-install-recommends --allow-downgrades \
+    neovim \
+    nano \
+    && rm -rf /var/lib/apt/lists/*
 
 # Install Python3
 RUN apt-get update && \
     apt-get install -y python3-dev python3-pip
 
+# Now add the ROS 2 GPG key with apt.
+RUN curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
 
-# Install ROS noetic
-# Reference : http://wiki.ros.org/noetic/Installation/Ubuntu
-
-# Add ros repository to file
-RUN echo "deb http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros2-latest.list
-
-
-# Registry ros repository to apt
-RUN curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | apt-key add -
+# Then add the repository to your sources list.
+RUN echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | tee /etc/apt/sources.list.d/ros2.list > /dev/null
 
 
 # Install python packages
 RUN apt-get update && apt-get install -y --no-install-recommends --allow-downgrades \
-    python-pip-whl=20.0.2-5ubuntu1.5 \
-    python3-pip=20.0.2-5ubuntu1.5 \
-    python3-colcon-common-extensions=0.2.1-1 \
+    python3-pip \
     && rm -rf /var/lib/apt/lists/*
 
 
 # Install ros2 packages
 RUN apt-get update && apt-get install -y --no-install-recommends --allow-downgrades \
-    ros-foxy-desktop=0.9.2-1focal.20211014.203334 \
+    ros-galactic-desktop \
+    ros-dev-tools \
     && rm -rf /var/lib/apt/lists/*
 
+#####################################################################################
+
+# Install ignition gazebo
+
+RUN apt-get update && apt-get install -y --no-install-recommends --allow-downgrades \
+    wget \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
+
+RUN wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
+
+RUN apt-get update && sudo apt-get install -y --no-install-recommends --allow-downgrades \
+    ignition-edifice \
+    && rm -rf /var/lib/apt/lists/*
+
+#####################################################################################
+
+# Install Turtlebot4 simulation
+
+RUN apt-get update && apt-get install -y --no-install-recommends --allow-downgrades \
+    ros-galactic-turtlebot4-simulator \
+    ros-galactic-irobot-create-nodes \
+    && rm -rf /var/lib/apt/lists/*
+
+#####################################################################################
+
 # Write command to bashrc
-RUN echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
+RUN echo "source /opt/ros/galactic/setup.bash" >> ~/.bashrc
 
 # Change path of python3
 RUN ln /usr/bin/python3 /usr/bin/python

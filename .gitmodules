@@ -1,4 +1,7 @@
-[submodule "executive_smach"]
-	path = ros2_ws/src/executive_smach
-	url = https://github.com/jeffrey870517/executive_smach.git
-	branch = foxy-devel
+[submodule "ros2_ws/src/flexbe_behavior_engine"]
+	path = ros2_ws/src/flexbe_behavior_engine
+	url = https://github.com/FlexBE/flexbe_behavior_engine.git
+[submodule "ros2_ws/src/flexbe_app"]
+	path = ros2_ws/src/flexbe_app
+	url = https://github.com/FlexBE/flexbe_app.git
+	branch = ros2-devel

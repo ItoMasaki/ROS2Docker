@@ -24,7 +24,10 @@ DOCKER_PROJECT=$1
 if [ -z "${DOCKER_PROJECT}" ]; then    
   DOCKER_PROJECT=${USER}    
 fi    
-DOCKER_CONTAINER="${DOCKER_PROJECT}"
+
+KEYWORD="rione"
+DOCKER_CONTAINER=$(docker ps -a --format "{{.Names}}" | grep "$KEYWORD")
+
 echo "$0: DOCKER_PROJECT=${DOCKER_PROJECT}"    
 echo "$0: DOCKER_CONTAINER=${DOCKER_PROJECT}"
     
