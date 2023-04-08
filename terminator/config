@@ -93,7 +93,7 @@
       parent = child8
       profile = default
       type = Terminal
-      command = bash ./RUN-DOCKER-CONTAINER.bash
+      command = bash ./RUN-DOCKER-CONTAINER.bash flexbe_app.launch.xml
     [[[terminal13]]] #2
       order = 0
       parent = child12
@@ -164,7 +164,7 @@
       parent = child5
       profile = default
       type = Terminal
-      command = bash ./RUN-DOCKER-CONTAINER.bash
+      command = bash ./RUN-DOCKER-CONTAINER.bash bringup_simulation.launch.xml
     [[[terminal7]]] #5
       order = 1
       parent = child5

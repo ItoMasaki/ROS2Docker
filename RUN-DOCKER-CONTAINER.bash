@@ -20,20 +20,26 @@ fi
     
 # Set the Docker container name from the [docker-project] argument.    
 # If no [docker-project] is given, use the current user name as the Docker project name.    
-DOCKER_PROJECT=$1    
+# DOCKER_PROJECT=$1
 if [ -z "${DOCKER_PROJECT}" ]; then    
   DOCKER_PROJECT=${USER}    
 fi    
 
-KEYWORD="rione"
+KEYWORD="ros2docker"
 DOCKER_CONTAINER=$(docker ps -a --format "{{.Names}}" | grep "$KEYWORD")
 
-echo "$0: DOCKER_PROJECT=${DOCKER_PROJECT}"    
-echo "$0: DOCKER_CONTAINER=${DOCKER_PROJECT}"
+if [ -z "${DOCKER_CONTAINER}" ]; then    
+  DOCKER_CONTAINER=${USER}
+  # Run the Docker container in the background.    
+  # Any changes made to './docker/docker-compose.yml' will recreate and overwrite the container.    
+  docker-compose -p ${DOCKER_CONTAINER} -f ./docker/docker-compose.yml up -d
+fi    
+
+echo "$0: DOCKER_PROJECT=${DOCKER_PROJECT}"
+echo "$0: DOCKER_CONTAINER=${DOCKER_CONTAINER}"
     
-# Run the Docker container in the background.    
-# Any changes made to './docker/docker-compose.yml' will recreate and overwrite the container.    
-docker-compose -p ${DOCKER_PROJECT} -f ./docker/docker-compose.yml up -d
+
+DOCKER_CONTAINER=$(docker ps -a --format "{{.Names}}" | grep "$KEYWORD")
 
 ################################################################################    
     
@@ -46,7 +52,7 @@ echo ${DOCKER_PROJECT}
 
 # Run docker container
 if [ ! $1 ]; then
-  docker exec -i -t ${DOCKER_PROJECT}_ros2docker_1 bash
+  docker exec -i -t ${DOCKER_CONTAINER} bash
 else
-  docker exec -i -t ${DOCKER_CONTAINER_NAME} bash -i -c "source ~/ROS2Docker/docker/ros2-devel/scripts/run-roslaunch-repeatedly.bash $1"
+  docker exec -i -t ${DOCKER_CONTAINER} bash -i -c "source ~/ROS2Docker/docker/ros2-devel/scripts/run-roslaunch-repeatedly.bash $1"
 fi

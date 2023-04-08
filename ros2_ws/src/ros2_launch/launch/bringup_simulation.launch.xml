@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+  <include file="$(find-pkg-share turtlebot4_ignition_bringup)/launch/ignition.launch.py">
+    <arg name="slam" value="sync"/>
+    <arg name="nav2" value="true"/>
+    <arg name="rviz" value="false"/>
+  </include>
+</launch>
