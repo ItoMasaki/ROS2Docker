@@ -35,7 +35,7 @@ Follow this step-by-step guide to perform the initial setup of this project on a
 
 ### Recommended:
 
-- A Nvidia GPU capable of running CUDA 10.1 (compute capability >= 3.0), or newer, to accelerate 3D graphics and deep learning computing.
+- A Nvidia GPU capable of running CUDA 11.2 (compute capability >= 3.0), or newer, to accelerate 3D graphics and deep learning computing.
 - A properly configured github.com account linked with your personal SSH key to push contributions to the project repository
 
 
@@ -57,7 +57,7 @@ Set up the environment of the development machine with the following instruction
 
 3. Configure the system environment:  
    ```
-   cd ~/ROS2/ && bash ./SETUP-DEVEL-MACHINE.bash
+   cd ~/ROS2Docker/ && bash ./SETUP-DEVEL-MACHINE.bash
    ```  
    The execution of SETUP-DEVEL-MACHINE.bash requires sudo permissions to install the tools that allow virtualization, i.e. Docker, Docker Compose, and Nvidia Docker 2. System changes made with sudo are kept to a strict minimum.
 
@@ -67,7 +67,7 @@ Set up the environment of the development machine with the following instruction
    sudo reboot
    ```
 
-> Note 5: The SETUP-DEVEL-MACHINE.bash script is actually divided into INCL-SUDO-ENV.bash and INCL-USER-ENV.bash. The execution of INCL-SUDO-ENV.bash makes system-wide changes and thus requires sudo permissions. However, if your system has already all the necessary tools installed, you can directly set up your local user environment with cd ~/ROS2/ && bash ./INCL-USER-ENV.bash which does not require sudo permissions.
+> Note 5: The SETUP-DEVEL-MACHINE.bash script is actually divided into INCL-SUDO-ENV.bash and INCL-USER-ENV.bash. The execution of INCL-SUDO-ENV.bash makes system-wide changes and thus requires sudo permissions. However, if your system has already all the necessary tools installed, you can directly set up your local user environment with cd ~/ROS2Docker/ && bash ./INCL-USER-ENV.bash which does not require sudo permissions.
 
 
 > Note 6: You do not need to reboot if your local user has already been added to the docker group. If so, executing docker --version should not ask for sudo. In principle, you only need to reboot after the very first time you run SETUP-DEVEL-MACHINE.bash.
@@ -79,9 +79,9 @@ Create a virtual environment using Docker (= Docker image) on the development ma
 
 1. Build the Docker image:  
    ```
-   cd ~/ROS2/ && bash ./BUILD-DOCKER-IMAGE.bash
+   cd ~/ROS2Docker/ && bash ./BUILD-DOCKER-IMAGE.bash
    ```  
-   This script builds the image following the instructions found in ~/ROS2/docker/ros2-devel/Dockerfile. Enter your GitLab developer credentials if prompted.
+   This script builds the image following the instructions found in ~/ROS2Docker/docker/ros2-devel/Dockerfile. Enter your GitLab developer credentials if prompted.
 
 
 > Note 7: The script BUILD-DOCKER-IMAGE.bash first tries to download the image from the container registry of the project. If, for whatever reason, the image cannot be downloaded, the script will build it locally. The later process is slow and can take up to 1 hour. In both cases, avoid using a Wi-Fi connection to greatly accelerate the process. Note that future local builds will reuse cached data whenever possible.
@@ -93,9 +93,9 @@ Enter a virtual instance of the Docker image (= Docker container) on the develop
 
 1. Run the Docker container:  
    ```
-   cd ~/ROS2/ && bash ./RUN-DOCKER-CONTAINER.bash
+   cd ~/ROS2Docker/ && bash ./RUN-DOCKER-CONTAINER.bash
    ```  
-   This script creates or updates the container following the instructions found in ~/ROS2/docker/docker-compose.yml. It allows the container to share system resources, such as volumes and devices, with the host machine.
+   This script creates or updates the container following the instructions found in ~/ROS2Docker/docker/docker-compose.yml. It allows the container to share system resources, such as volumes and devices, with the host machine.
 
 
 2. Use ctrl+d to exit the container at any time.
@@ -114,18 +114,18 @@ Build and test the ROS environment (= Catkin workspace) inside the Docker contai
 
 1. Enter the Docker container if necessary:  
    ```
-   cd ~/ROS2/ && bash ./RUN-DOCKER-CONTAINER.bash
+   cd ~/ROS2Docker/ && bash ./RUN-DOCKER-CONTAINER.bash
    ```
 
 2. Initialize the Catkin workspace:  
    ```
-   cd /root/ROS2/ && bash ./docker/ros2-devel/scripts/reset-catkin-workspace.bash
+   cd /root/ROS2Docker/ && bash ./docker/ros2-devel/scripts/reset-catkin-workspace.bash
    ```  
-   This script will remove any existing Catkin workspace and build a new one inside /root/ROS2/catkin_ws/.
+   This script will remove any existing Catkin workspace and build a new one inside /root/ROS2Docker/catkin_ws/.
 
 3. Make sure that the new Catkin workspace is sourced:  
    ```
-   cd /root/ROS2/ && source ./catkin_ws/devel/setup.bash
+   cd /root/ROS2Docker/ && source ./catkin_ws/devel/setup.bash
    ```
 
 4. Launch a couple of publisher and subscriber test nodes from the ros2_launch package:  
